@@ -6,6 +6,13 @@ Count all files with extension c, cpp, cc. Toggle to include header files
 
 ## Usage
 
+Create an executable with
+``` sh
+lein bin
+```
+
+if that does not work you can run the commands below by replace `cloc` with `lein run`
+
 ``` sh
 cloc --help
 ```
